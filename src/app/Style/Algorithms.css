@@ -1,0 +1,93 @@
+.navbar-brand {
+    font-size: 34px; /* Increase navbar brand font size */
+    font-weight: bold;
+    color: #333;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-top: 30px;
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .btn-primary {
+    font-weight: bolder;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+
+  }
+
+  /* .card:hover {
+    transform: scale(1.02);
+  } */
+
+  .card-title {
+    font-size: 24px;
+    color: #333;
+  }
+
+  .card-text {
+    text-align: center;
+  }
+
+  .modal-content {
+    background-color: #ffffff;
+  }
+
+  .modal-title {
+    font-size: 24px;
+    color: #333;
+  }
+
+  .modal-body {
+    color: #555;
+  }
+
+  .list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .list-group-item.active:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+.custom-radio {
+  margin-bottom: 10px;
+}
+
+.custom-radio .form-check-input[type="radio"] {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 10px; 
+  border-radius: 50%; 
+  border: 2px solid #3498db;
+}
+
+.custom-radio .form-check-input[type="radio"]:checked {
+  background-color: #3498db;
+}
+
+.custom-radio .form-check-label {
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
